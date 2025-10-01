@@ -35,7 +35,7 @@ const MainHeader = () => {
               href="/about-us"
               className="text-white font-medium hover:text-cyan-400 transition-colors duration-300 relative group"
             >
-              About Uss
+              About Us
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link
