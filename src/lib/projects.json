@@ -1,0 +1,61 @@
+{
+  "projects": [
+    {
+      "id": "listener",
+      "title": "Listener App",
+      "slug": "listener",
+      "description": "One-to-one call audio, and video chat",
+      "fullDescription": "A real-time communication platform enabling seamless one-to-one audio and video conversations with crystal-clear quality.",
+      "image": "/images/projects/listener-preview.jpg",
+      "icon": "video",
+      "technologies": ["WebRTC", "Node.js", "React", "Socket.io"],
+      "features": [
+        "HD Video Calling",
+        "Crystal Clear Audio",
+        "Screen Sharing",
+        "Real-time Chat",
+        "End-to-end Encryption"
+      ],
+      "link": "/projects/listener",
+      "color": "from-blue-600 to-purple-600"
+    },
+    {
+      "id": "gaming",
+      "title": "Gaming",
+      "slug": "gaming",
+      "description": "Engaging and immersive gaming platform",
+      "fullDescription": "An innovative gaming platform delivering immersive experiences with cutting-edge graphics and multiplayer capabilities.",
+      "image": "/images/projects/gaming-preview.jpg",
+      "icon": "gamepad",
+      "technologies": ["Unity", "WebGL", "Node.js", "WebSocket"],
+      "features": [
+        "Multiplayer Support",
+        "Real-time Leaderboards",
+        "Cross-platform Play",
+        "In-game Chat",
+        "Achievement System"
+      ],
+      "link": "/projects/gaming",
+      "color": "from-purple-600 to-pink-600"
+    },
+    {
+      "id": "arvr",
+      "title": "AR/VR",
+      "slug": "arvr",
+      "description": "Innovative augmented and virtual reality experience",
+      "fullDescription": "Cutting-edge AR/VR solutions that transform how users interact with digital content in immersive 3D environments.",
+      "image": "/images/projects/arvr-preview.jpg",
+      "icon": "vr",
+      "technologies": ["Unity", "ARKit", "ARCore", "Oculus SDK"],
+      "features": [
+        "360° Experiences",
+        "Hand Tracking",
+        "Spatial Audio",
+        "Cross-device Support",
+        "Interactive Environments"
+      ],
+      "link": "/projects/arvr",
+      "color": "from-indigo-600 to-blue-600"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "services": [
+    {
+      "id": "web-dev",
+      "title": "Web Development",
+      "description": "Building responsive and scalable websites and web applications",
+      "icon": "code",
+      "technologies": ["Next.js", "React", "Node.js", "TypeScript"],
+      "link": "/services#web-development"
+    },
+    {
+      "id": "app-dev",
+      "title": "App Development",
+      "description": "Creating user-friendly mobile applications for iOS and Android",
+      "icon": "smartphone",
+      "technologies": ["React Native", "Flutter", "Swift", "Kotlin"],
+      "link": "/services#app-development"
+    },
+    {
+      "id": "ui-ux",
+      "title": "UI/UX Design",
+      "description": "Designing intuitive and engaging user interfaces",
+      "icon": "palette",
+      "technologies": ["Figma", "Adobe XD", "Sketch", "Prototyping"],
+      "link": "/services#ui-ux-design"
+    },
+    {
+      "id": "arvr-exp",
+      "title": "AR/VR Experiences",
+      "description": "Developing immersive augmented and virtual reality solutions",
+      "icon": "vr-headset",
+      "technologies": ["Unity", "Unreal Engine", "ARKit", "WebXR"],
+      "link": "/services#arvr-experiences"
+    }
+  ]
+}

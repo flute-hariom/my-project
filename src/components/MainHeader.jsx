@@ -46,10 +46,11 @@ const MainHeader = () => {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link
-              href="/portfolio"
+              // href="/portfolio"
+              href="/projects"
               className="text-white font-medium hover:text-cyan-400 transition-colors duration-300 relative group"
             >
-              Portfolio
+              Projects
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </div>
@@ -106,11 +107,13 @@ const MainHeader = () => {
               Services
             </Link>
             <Link
-              href="/portfolio"
+              // href="/portfolio"
+              href="/projects"
               className="block px-3 py-2 rounded-md text-white hover:text-cyan-400 hover:bg-slate-700 transition-colors duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
-              Portfolio
+              {/* Portfolio */}
+              projects
             </Link>
             <Link
               href="/about"

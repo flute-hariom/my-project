@@ -1,0 +1,48 @@
+{
+  "blogs": [
+    {
+      "id": "future-web-dev",
+      "title": "The Future of Web Development",
+      "slug": "future-of-web-development",
+      "excerpt": "Exploring the latest technologies and trends",
+      "image": "/images/blog/future-web-dev.jpg",
+      "category": "Web Development",
+      "author": "Tech Team",
+      "date": "2025-01-15",
+      "readTime": "5 min read"
+    },
+    {
+      "id": "ar-vr-impact",
+      "title": "Augmented and Virtual Reality",
+      "slug": "augmented-virtual-reality",
+      "excerpt": "The impact of AR and VR on various industries",
+      "image": "/images/blog/ar-vr-impact.jpg",
+      "category": "AR/VR",
+      "author": "Tech Team",
+      "date": "2025-01-10",
+      "readTime": "6 min read"
+    },
+    {
+      "id": "digital-transformation",
+      "title": "Digital Transformation",
+      "slug": "digital-transformation",
+      "excerpt": "How businesses are adapting to the digital age",
+      "image": "/images/blog/digital-transformation.jpg",
+      "category": "Business",
+      "author": "Tech Team",
+      "date": "2025-01-05",
+      "readTime": "7 min read"
+    },
+    {
+      "id": "tech-trends-2025",
+      "title": "Technology Trends",
+      "slug": "technology-trends-2025",
+      "excerpt": "A look at the latest innovations shaping the future",
+      "image": "/images/blog/tech-trends.jpg",
+      "category": "Technology",
+      "author": "Tech Team",
+      "date": "2025-01-01",
+      "readTime": "8 min read"
+    }
+  ]
+}

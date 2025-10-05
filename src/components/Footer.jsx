@@ -124,13 +124,15 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/portfolio"
+                  // href="/portfolio"
+                  href="/projects"
+                  // <Link href="/projects">
                   className="hover:text-cyan-400 transition-colors duration-300 flex items-center group"
                 >
                   <span className="mr-2 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     ›
                   </span>
-                  Portfolio
+                  Projects
                 </Link>
               </li>
               <li>

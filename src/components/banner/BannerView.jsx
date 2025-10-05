@@ -1,15 +1,13 @@
-"use client"
+"use client";
 
 import React, { useEffect, useRef } from "react";
 import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
-import bannersData from "@/lib/banners.json"
+import bannersData from "@/lib/banners.json";
 
 const BannerView = (props) => {
-  const plugin = useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
-  );
-  
+  const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
+
   const banners = bannersData;
 
   return (

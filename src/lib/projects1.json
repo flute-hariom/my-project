@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "id": "listener",
+      "title": "Listener App",
+      "slug": "listener",
+      "description": "One-to-one call audio, and video chat",
+      "image": "/images/projects/listener-preview.jpg",
+      "color": "from-blue-600 to-purple-600",
+      "technologies": ["WebRTC", "Node.js", "React", "Socket.io"],
+      "hasWebsite": true,
+      "websiteUrl": "https://listener-app.com",
+      "status": "live"
+    },
+    {
+      "id": "gaming",
+      "title": "Gaming",
+      "slug": "gaming",
+      "description": "Engaging and immersive gaming platform",
+      "image": "/images/projects/gaming-preview.jpg",
+      "color": "from-purple-600 to-pink-600",
+      "technologies": ["Unity", "WebGL", "Node.js", "WebSocket"],
+      "hasWebsite": false,
+      "websiteUrl": null,
+      "status": "coming-soon"
+    },
+    {
+      "id": "arvr",
+      "title": "AR/VR",
+      "slug": "arvr",
+      "description": "Innovative augmented and virtual reality experience",
+      "image": "/images/projects/arvr-preview.jpg",
+      "color": "from-indigo-600 to-blue-600",
+      "technologies": ["Unity", "ARKit", "ARCore", "Oculus SDK"],
+      "hasWebsite": false,
+      "websiteUrl": null,
+      "status": "coming-soon"
+    }
+  ]
+}
