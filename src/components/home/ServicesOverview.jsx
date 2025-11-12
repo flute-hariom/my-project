@@ -21,7 +21,7 @@ const ServicesOverview = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Our Services
+            Our Expertise
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             We offer a range of services to help businesses succeed in the
@@ -33,7 +33,7 @@ const ServicesOverview = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => {
             const IconComponent = iconMap[service.icon] || Code;
-            
+
             return (
               <Link
                 key={service.id}
@@ -51,14 +51,14 @@ const ServicesOverview = () => {
                 <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
                   {service.title}
                 </h3>
-                
+
                 <p className="text-gray-400 mb-4 leading-relaxed">
                   {service.description}
                 </p>
 
                 {/* Tech Stack */}
                 <div className="flex flex-wrap gap-2">
-                  {service.technologies.slice(0, 2).map((tech, i) => (
+                  {service.technologies.slice(0, 3).map((tech, i) => (
                     <span
                       key={i}
                       className="text-xs px-2 py-1 bg-blue-500/20 text-blue-400 rounded"

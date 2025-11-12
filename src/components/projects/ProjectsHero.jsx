@@ -18,7 +18,7 @@ const ProjectsHero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
-            Explore our diverse range of innovative projects and solutions
+            Explore a glimpse of what we do:  
           </p>
         </div>
       </div>

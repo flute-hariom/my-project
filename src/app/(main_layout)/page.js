@@ -14,9 +14,9 @@ const Home = () => {
 
       {/* New Homepage Sections */}
       <HeroSection />
-      <FeaturedProjects />
       <AboutPreview />
       <ServicesOverview />
+      <FeaturedProjects />
       <LatestBlogs />
       <CTASection />
     </div>

@@ -18,7 +18,7 @@ const FeaturedProjects = () => {
             Our Projects
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Explore our diverse range of innovative projects and solutions
+            Explore a glimpse of what we do:
           </p>
         </div>
 

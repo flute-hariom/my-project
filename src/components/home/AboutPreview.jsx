@@ -14,7 +14,7 @@ const AboutPreview = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-3xl blur-3xl"></div>
             <img
-              src="/images/about/company-image.jpg"
+              src="/about.png"
               alt="About Our Company"
               className="relative rounded-3xl shadow-2xl w-full"
             />
@@ -25,7 +25,7 @@ const AboutPreview = () => {
             <h2 className="text-4xl md:text-5xl font-bold">
               About Our Company
             </h2>
-            
+
             <p className="text-xl text-gray-300 leading-relaxed">
               We are a digital innovation company specializing in Web, AR/VR,
               Gaming, and Real-time Communication platforms.
