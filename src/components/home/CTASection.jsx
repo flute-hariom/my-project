@@ -23,7 +23,7 @@ const CTASection = () => {
               Next Project?
             </span>
           </h2>
-          
+
           <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
             Let's collaborate to build innovative digital solutions that drive
             your business forward
@@ -41,7 +41,7 @@ const CTASection = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
-            
+
             <Link href="tel:+1234567890">
               <Button
                 size="lg"
@@ -56,16 +56,18 @@ const CTASection = () => {
 
           {/* Quick Contact Info */}
           <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
-              <Mail className="h-8 w-8 text-blue-400 mx-auto mb-3" />
-              <p className="text-gray-400 text-sm mb-1">Email us at</p>
-              <p className="text-white font-semibold">info@company.com</p>
-            </div>
-            
+            <Link href="mailto:info@moolmantra.co" className="group">
+              <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+                <Mail className="h-8 w-8 text-blue-400 mx-auto mb-3" />
+                <p className="text-gray-400 text-sm mb-1">Email us at</p>
+                <p className="text-white font-semibold">info@moolmantra.co</p>
+              </div>
+            </Link>
+
             <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
               <Phone className="h-8 w-8 text-purple-400 mx-auto mb-3" />
               <p className="text-gray-400 text-sm mb-1">Call us at</p>
-              <p className="text-white font-semibold">+1 (234) 567-890</p>
+              <p className="text-white font-semibold">+91-9818733819</p>
             </div>
           </div>
         </div>

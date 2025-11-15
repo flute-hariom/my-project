@@ -2,28 +2,44 @@
 
 import React from "react";
 import Link from "next/link";
-import { 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Sparkles, 
-  Rocket, 
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Sparkles,
+  Rocket,
   ArrowRight,
   Gamepad2,
   Smartphone,
   Glasses,
   Zap,
   Globe,
-  MessageCircle
+  MessageCircle,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactPage = () => {
   const services = [
-    { icon: <Smartphone className="h-8 w-8" />, label: "Apps", color: "from-blue-500 to-cyan-500" },
-    { icon: <Gamepad2 className="h-8 w-8" />, label: "Games", color: "from-purple-500 to-pink-500" },
-    { icon: <Glasses className="h-8 w-8" />, label: "AR/VR", color: "from-orange-500 to-red-500" },
-    { icon: <Zap className="h-8 w-8" />, label: "Innovation", color: "from-green-500 to-emerald-500" }
+    {
+      icon: <Smartphone className="h-8 w-8" />,
+      label: "Apps",
+      color: "from-blue-500 to-cyan-500",
+    },
+    {
+      icon: <Gamepad2 className="h-8 w-8" />,
+      label: "Games",
+      color: "from-purple-500 to-pink-500",
+    },
+    {
+      icon: <Glasses className="h-8 w-8" />,
+      label: "AR/VR",
+      color: "from-orange-500 to-red-500",
+    },
+    {
+      icon: <Zap className="h-8 w-8" />,
+      label: "Innovation",
+      color: "from-green-500 to-emerald-500",
+    },
   ];
 
   return (
@@ -45,22 +61,24 @@ const ContactPage = () => {
             <div className="max-w-5xl mx-auto text-center">
               <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-6 py-2 mb-8">
                 <Sparkles className="h-4 w-4 text-purple-400 animate-pulse" />
-                <span className="text-gray-300 text-sm font-medium">Contact Us</span>
+                <span className="text-gray-300 text-sm font-medium">
+                  Contact Us
+                </span>
               </div>
-              
+
               <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
                 Let's Build Something{" "}
                 <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
                   Extraordinary
                 </span>
               </h1>
-              
+
               <p className="text-xl md:text-2xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
                 Have an idea worth experiencing? Let's bring it to life.
               </p>
-              
+
               <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-12">
-                Whether it's an app, a game, or an immersive AR/VR experience — 
+                Whether it's an app, a game, or an immersive AR/VR experience —
                 we'll help you design the future.
               </p>
 
@@ -76,7 +94,7 @@ const ContactPage = () => {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </Link>
-                
+
                 <Link href="tel:+919818733819">
                   <Button
                     size="lg"
@@ -97,16 +115,18 @@ const ContactPage = () => {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center gap-8 max-w-4xl mx-auto">
               {services.map((service, index) => (
-                <div 
+                <div
                   key={index}
                   className="group flex flex-col items-center gap-3"
                 >
-                  <div className={`p-5 bg-gradient-to-br ${service.color} rounded-2xl shadow-lg group-hover:scale-110 transition-all duration-300 group-hover:shadow-xl`}>
-                    <div className="text-white">
-                      {service.icon}
-                    </div>
+                  <div
+                    className={`p-5 bg-gradient-to-br ${service.color} rounded-2xl shadow-lg group-hover:scale-110 transition-all duration-300 group-hover:shadow-xl`}
+                  >
+                    <div className="text-white">{service.icon}</div>
                   </div>
-                  <span className="text-gray-300 font-medium">{service.label}</span>
+                  <span className="text-gray-300 font-medium">
+                    {service.label}
+                  </span>
                 </div>
               ))}
             </div>
@@ -127,7 +147,9 @@ const ContactPage = () => {
                     <div className="inline-flex p-5 bg-blue-500/20 rounded-2xl mb-6 group-hover:bg-blue-500/30 transition-colors">
                       <Mail className="h-10 w-10 text-blue-400 group-hover:scale-110 transition-transform" />
                     </div>
-                    <h3 className="text-gray-400 text-sm mb-2 uppercase tracking-wider">Email Us</h3>
+                    <h3 className="text-gray-400 text-sm mb-2 uppercase tracking-wider">
+                      Email Us
+                    </h3>
                     <p className="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
                       info@moolmantra.co
                     </p>
@@ -145,7 +167,9 @@ const ContactPage = () => {
                     <div className="inline-flex p-5 bg-purple-500/20 rounded-2xl mb-6 group-hover:bg-purple-500/30 transition-colors">
                       <Phone className="h-10 w-10 text-purple-400 group-hover:scale-110 transition-transform" />
                     </div>
-                    <h3 className="text-gray-400 text-sm mb-2 uppercase tracking-wider">Call Us</h3>
+                    <h3 className="text-gray-400 text-sm mb-2 uppercase tracking-wider">
+                      Call Us
+                    </h3>
                     <p className="text-2xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors">
                       +91-9818733819
                     </p>
@@ -163,16 +187,16 @@ const ContactPage = () => {
                     <div className="inline-flex p-5 bg-pink-500/20 rounded-2xl mb-6 group-hover:bg-pink-500/30 transition-colors">
                       <MapPin className="h-10 w-10 text-pink-400 group-hover:scale-110 transition-transform" />
                     </div>
-                    <h3 className="text-gray-400 text-sm mb-2 uppercase tracking-wider">Visit Us</h3>
+                    <h3 className="text-gray-400 text-sm mb-2 uppercase tracking-wider">
+                      Visit Us
+                    </h3>
                     <p className="text-lg font-bold text-white mb-1">
                       Plot No. 5/853 A, G-1
                     </p>
                     <p className="text-gray-300 mb-1">
                       Sector 5, Vaishali, Ghaziabad
                     </p>
-                    <p className="text-gray-400 text-sm">
-                      U.P. – 201019
-                    </p>
+                    <p className="text-gray-400 text-sm">U.P. – 201019</p>
                   </div>
                 </div>
               </div>
@@ -190,8 +214,9 @@ const ContactPage = () => {
                   Ready to Innovate?
                 </h2>
                 <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-                  Join us in creating the next generation of digital experiences. 
-                  Your vision, our expertise — together, we'll shape the future.
+                  Join us in creating the next generation of digital
+                  experiences. Your vision, our expertise — together, we'll
+                  shape the future.
                 </p>
                 <Link href="mailto:info@moolmantra.co">
                   <Button
@@ -203,20 +228,6 @@ const ContactPage = () => {
                   </Button>
                 </Link>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Footer Note */}
-        <section className="pb-12">
-          <div className="container mx-auto px-4">
-            <div className="text-center">
-              <p className="text-gray-500 text-sm mb-2">
-                © 2025 Moolmantra Technologies Private Limited. All Rights Reserved.
-              </p>
-              <p className="text-gray-600 text-xs">
-                This is a computer-generated document. Signature not required.
-              </p>
             </div>
           </div>
         </section>

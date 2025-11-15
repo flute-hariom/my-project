@@ -16,9 +16,10 @@ const MainHeader = () => {
           <div className="flex-shrink-0">
             <Link
               href="/"
-              className="text-white text-2xl font-bold hover:text-cyan-400 transition-colors duration-300"
+              className="flex text-white text-2xl font-bold hover:text-cyan-400 transition-colors duration-300"
             >
-              LOGO
+              <img src="/logo.png" className="w-10 mr-2" />
+              Moolmantra Technologies
             </Link>
           </div>
 
@@ -57,7 +58,7 @@ const MainHeader = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Link href="/start-project">
+            <Link href="/contact-us">
               <button className="bg-cyan-400 text-slate-900 px-6 py-2.5 rounded-md font-semibold hover:bg-cyan-300 hover:shadow-lg hover:shadow-cyan-400/30 transform hover:-translate-y-0.5 transition-all duration-300">
                 Start Your Project
               </button>
@@ -123,7 +124,7 @@ const MainHeader = () => {
               About Us
             </Link>
             <Link
-              href="/start-project"
+              href="/contact-us"
               className="block w-full mt-3"
               onClick={() => setIsMenuOpen(false)}
             >

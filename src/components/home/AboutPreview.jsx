@@ -27,15 +27,14 @@ const AboutPreview = () => {
             </h2>
 
             <p className="text-xl text-gray-300 leading-relaxed">
-              We are a digital innovation company specializing in Web, AR/VR,
-              Gaming, and Real-time Communication platforms.
+              Moolmantra Technologies Private Limited is a creative technology
+              studio crafting immersive experiences through apps, games, and
+              AR/VR. .
             </p>
 
             <p className="text-lg text-gray-400 leading-relaxed">
-              Founded in 2010, we have been at the forefront of digital
-              innovation for over a decade. Our team of experts are passionate
-              about creating cutting-edge solutions that drive results for our
-              clients.
+              We collaborate with startups, enterprises, and visionaries to turn
+              concepts into products that inspire, engage, and perform.
             </p>
 
             {/* Stats */}

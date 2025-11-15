@@ -11,11 +11,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info Section */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <Link href="/" className="inline-block mb-6">
-              <h2 className="text-3xl font-bold text-white hover:text-cyan-400 transition-colors duration-300">
-                LOGO
-              </h2>
-            </Link>
+            <div className="flex-shrink-0">
+              <Link
+                href="/"
+                className="flex text-white text-xl font-bold hover:text-cyan-400 transition-colors duration-300"
+              >
+                <img src="/logo.png" className="w-16 mr-2 mb-2" />
+                Moolmantra Technologies
+              </Link>
+            </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Your trusted partner in digital innovation. We create exceptional
               digital experiences that drive results.
@@ -202,7 +206,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/services/consulting"
+                  href="/contact-us"
                   className="hover:text-cyan-400 transition-colors duration-300 flex items-center group"
                 >
                   <span className="mr-2 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -242,9 +246,9 @@ const Footer = () => {
                   />
                 </svg>
                 <span className="text-gray-400">
-                  123 Business Street,
+                  Plot No. 5/853 A, G-1
                   <br />
-                  Tech Park, City 12345
+                  Sector 5, Vaishali, Ghaziabad U.P –201019
                 </span>
               </li>
               <li className="flex items-center">
@@ -265,7 +269,7 @@ const Footer = () => {
                   href="tel:+1234567890"
                   className="hover:text-cyan-400 transition-colors duration-300"
                 >
-                  +1 (234) 567-890
+                  +91-9818733819
                 </a>
               </li>
               <li className="flex items-center">
@@ -283,10 +287,10 @@ const Footer = () => {
                   />
                 </svg>
                 <a
-                  href="mailto:info@company.com"
+                  href="info@moolmantra.co"
                   className="hover:text-cyan-400 transition-colors duration-300"
                 >
-                  info@company.com
+                  info@moolmantra.co
                 </a>
               </li>
             </ul>
@@ -331,7 +335,8 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Your Company Name. All rights reserved.
+              © {currentYear} Moolmantra Technologies Private Limited. All
+              Rights Reserved.
             </p>
             <div className="flex flex-wrap justify-center space-x-6 text-sm">
               <Link

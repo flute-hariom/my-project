@@ -22,17 +22,14 @@ const BannerView = (props) => {
         {banners?.length
           ? banners.map((slide, index) => (
               <CarouselItem key={index} className="w-full">
-                <div className="relative w-full overflow-hidden">
-                  {/* Responsive image container with aspect ratio */}
-                  <div className="relative aspect-[16/9] sm:aspect-[21/9] md:aspect-[3/1]">
-                    <img
-                      src={slide?.web_view_image?.asset?.url}
-                      alt={slide?.web_view_image?.alt || "website banner"}
-                      title={slide?.web_view_image?.alt || "website banner"}
-                      className="absolute inset-0 w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                  </div>
+                <div className="relative w-full h-[90vh]">
+                  <img
+                    src={slide?.web_view_image?.asset?.url}
+                    alt={slide?.web_view_image?.alt || "website banner"}
+                    title={slide?.web_view_image?.alt || "website banner"}
+                    className="w-full h-full object-fill"
+                    loading="lazy"
+                  />
                 </div>
               </CarouselItem>
             ))
