@@ -15,7 +15,7 @@ const FeaturedProjects = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Our Projects
+            Our Work Speaks
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Explore a glimpse of what we do:
@@ -24,7 +24,7 @@ const FeaturedProjects = () => {
 
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {projects.slice(0, 3).map((project, index) => (
             <Link
               key={project.id}
               href={project.link}
@@ -79,7 +79,7 @@ const FeaturedProjects = () => {
               variant="outline"
               className="border-2 border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white px-8 py-6 text-lg rounded-lg transition-all duration-300"
             >
-              View All Projects
+              See Our Work
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </Link>

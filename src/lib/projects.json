@@ -1,61 +1,110 @@
 {
   "projects": [
     {
-      "id": "listener",
-      "title": "Listener App",
-      "slug": "listener",
-      "description": "A one-to-one audio and video communication app built using WebRTC, Node.js and React. ",
-      "fullDescription": "A real-time communication platform enabling seamless one-to-one audio and video conversations with crystal-clear quality.",
-      "image": "/images/projects/listener-preview.jpg",
-      "icon": "video",
-      "technologies": ["WebRTC", "Node.js", "React", "Socket.io"],
-      "features": [
-        "HD Video Calling",
-        "Crystal Clear Audio",
-        "Screen Sharing",
-        "Real-time Chat",
-        "End-to-end Encryption"
+      "id": "apps",
+      "title": "AI-Powered Mobile/Web",
+      "slug": "ai-powered-mobile-web",
+      "description": "Instant connection with AI-integrated, real-time, cross-platform mobile solutions.",
+      "fullDescription": "Building next-gen mobile and web apps that offer instant connectivity, AI-driven intelligence, and seamless real-time experiences across platforms.",
+      "image": "/aiPowered.png",
+      "icon": "smartphone",
+      "technologies": [
+        "Flutter",
+        "React Native",
+        "Swift (AI/Vision)",
+        "Go",
+        "Node.js (NestJS)",
+        "WebRTC",
+        "Redis"
       ],
-      "link": "/projects/listener",
+      "features": [
+        "AI-Integrated App Experiences",
+        "Real-time Communication",
+        "Cross-Platform Performance",
+        "Scalable Architecture",
+        "Secure Cloud Connectivity"
+      ],
+      "link": "/projects/apps",
       "color": "from-blue-600 to-purple-600"
     },
     {
-      "id": "gaming",
-      "title": "Gaming",
-      "slug": "gaming",
-      "description": "A highly engaging interactive gaming environment built in Unity and WebGL with real-time features and social integration. ",
-      "fullDescription": "An innovative gaming platform delivering immersive experiences with cutting-edge graphics and multiplayer capabilities.",
-      "image": "/images/projects/gaming-preview.jpg",
+      "id": "games",
+      "title": "Metaverse & Gaming",
+      "slug": "metaverse-gaming",
+      "description": "Delivering hyper-responsive, cloud-native multiplayer and extended-reality gaming worlds.",
+      "fullDescription": "Creating high-performance gaming experiences using advanced engines and cloud-native multiplayer architecture.",
+      "image": "/metaverse-gaming.png",
       "icon": "gamepad",
-      "technologies": ["Unity", "WebGL", "Node.js", "WebSocket"],
+      "technologies": [
+        "Unity DOTS",
+        "Unreal Engine 5",
+        "AWS GameLift",
+        "Agones (Kubernetes)",
+        "Rust",
+        "Photon"
+      ],
       "features": [
-        "Multiplayer Support",
-        "Real-time Leaderboards",
-        "Cross-platform Play",
-        "In-game Chat",
-        "Achievement System"
+        "Cloud-Native Multiplayer",
+        "Ultra-Low Latency Gameplay",
+        "Cross-Platform Support",
+        "Real-time Sync",
+        "Immersive Visuals"
       ],
       "link": "/projects/gaming",
       "color": "from-purple-600 to-pink-600"
     },
     {
       "id": "arvr",
-      "title": "AR/VR",
-      "slug": "arvr",
-      "description": "Innovative augmented and virtual reality solutions using Unity, ARKit and ARCore.",
-      "fullDescription": "Cutting-edge AR/VR solutions that transform how users interact with digital content in immersive 3D environments.",
-      "image": "/images/projects/arvr-preview.jpg",
+      "title": "Spatial Computing (XR)",
+      "slug": "spatial-computing-xr",
+      "description": "Seamlessly blending realities for industrial training and next-generation user interaction.",
+      "fullDescription": "Delivering powerful XR solutions using modern spatial computing frameworks for industrial, enterprise, and immersive applications.",
+      "image": "/industrial-training.png",
       "icon": "vr",
-      "technologies": ["Unity", "ARKit", "ARCore", "Oculus SDK"],
+      "technologies": [
+        "Apple VisionOS",
+        "Android XR",
+        "WebXR",
+        "Spatial Anchors (Azure/ARKit)",
+        "LiDAR/Depth APIs",
+        "Edge Computing"
+      ],
       "features": [
-        "360° Experiences",
-        "Hand Tracking",
-        "Spatial Audio",
-        "Cross-device Support",
-        "Interactive Environments"
+        "Industrial-Grade XR Training",
+        "Spatial Interaction",
+        "3D Environment Mapping",
+        "Cross-Device Experiences",
+        "High-Fidelity Immersion"
       ],
       "link": "/projects/arvr",
       "color": "from-indigo-600 to-blue-600"
+    },
+    {
+      "id": "webdev",
+      "title": "Enterprise SaaS Platforms",
+      "slug": "enterprise-saas-platforms",
+      "description": "Building secure, high-performance SaaS and complex data-driven business solutions.",
+      "fullDescription": "Creating large-scale enterprise SaaS applications with advanced cloud, backend, and frontend technologies.",
+      "image": "/secure-saas.png",
+      "icon": "globe",
+      "technologies": [
+        "Next.js",
+        "SvelteKit",
+        "Java (Spring Boot 3 / Quarkus)",
+        "Node.js",
+        "Rust",
+        "Vercel/Cloudflare Edge",
+        "GraphQL"
+      ],
+      "features": [
+        "High-Performance SaaS",
+        "Data-Driven Dashboards",
+        "Scalable Cloud Architecture",
+        "Edge-Optimized Delivery",
+        "Enterprise-Grade Security"
+      ],
+      "link": "/projects/enterprise-saas",
+      "color": "from-green-600 to-blue-600"
     }
   ]
 }
