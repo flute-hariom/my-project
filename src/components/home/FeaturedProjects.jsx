@@ -50,7 +50,7 @@ const FeaturedProjects = () => {
                 <p className="text-gray-400 mb-4">{project.description}</p>
 
                 {/* Tech Stack Pills */}
-                <div className="flex flex-wrap gap-2 mb-4">
+                {/* <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.slice(0, 3).map((tech, i) => (
                     <span
                       key={i}
@@ -59,7 +59,7 @@ const FeaturedProjects = () => {
                       {tech}
                     </span>
                   ))}
-                </div>
+                </div> */}
 
                 {/* Learn More Link */}
                 <div className="flex items-center text-blue-400 font-semibold">

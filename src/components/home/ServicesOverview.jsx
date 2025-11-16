@@ -57,7 +57,7 @@ const ServicesOverview = () => {
                 </p>
 
                 {/* Tech Stack */}
-                <div className="flex flex-wrap gap-2">
+                {/* <div className="flex flex-wrap gap-2">
                   {service.technologies.slice(0, 3).map((tech, i) => (
                     <span
                       key={i}
@@ -66,7 +66,7 @@ const ServicesOverview = () => {
                       {tech}
                     </span>
                   ))}
-                </div>
+                </div> */}
 
                 {/* Hover Effect Overlay */}
                 <div className="absolute inset-0 border-2 border-blue-500/0 group-hover:border-blue-500/50 rounded-2xl transition-all duration-300"></div>

@@ -16,14 +16,14 @@ const Footer = () => {
                 href="/"
                 className="flex text-white text-xl font-bold hover:text-cyan-400 transition-colors duration-300"
               >
-                <img src="/logo.png" className="w-16 mr-2 mb-2" />
+                <img src="/logo.png" className="w-16 mr-4 mb-20" />
                 Moolmantra Technologies
               </Link>
             </div>
-            <p className="text-gray-400 mb-6 leading-relaxed">
+            {/* <p className="text-gray-400 mb-6 leading-relaxed">
               Your trusted partner in digital innovation. We create exceptional
               digital experiences that drive results.
-            </p>
+            </p> */}
 
             {/* Social Media Links */}
             <div className="flex space-x-4">

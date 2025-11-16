@@ -43,10 +43,10 @@ const ServiceCard = ({ service, index }) => {
 
       {/* Technologies */}
       <div className="mb-8">
-        <p className="text-sm text-gray-500 mb-3 font-semibold uppercase tracking-wider">
+        {/* <p className="text-sm text-gray-500 mb-3 font-semibold uppercase tracking-wider">
           Technologies We Use
-        </p>
-        <div className="flex flex-wrap gap-2">
+        </p> */}
+        {/* <div className="flex flex-wrap gap-2">
           {service.technologies.map((tech, i) => (
             <span
               key={i}
@@ -55,16 +55,30 @@ const ServiceCard = ({ service, index }) => {
               {tech}
             </span>
           ))}
-        </div>
+        </div> */}
       </div>
 
       {/* CTA Button */}
-      <Link href="/contact-us">
+      {/* <Link href="/contact-us">
         <Button
           className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white py-6 text-lg rounded-xl transition-all duration-300 group-hover:shadow-lg"
         >
           Get Started
           <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+        </Button>
+      </Link> */}
+
+      <Link href="/contact-us" className="block w-full">
+        <Button
+          asChild
+          className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 
+               hover:to-purple-700 text-white py-6 text-lg rounded-xl transition-all 
+               duration-300 group-hover:shadow-lg"
+        >
+          <span>
+            Get Started
+            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+          </span>
         </Button>
       </Link>
 

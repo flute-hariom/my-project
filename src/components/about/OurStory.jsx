@@ -1,34 +1,45 @@
 "use client";
 
 import React from "react";
-import { Rocket, Users, Target, Award } from "lucide-react";
+import { Sparkles, Gamepad2, Building, TrendingUp, Star } from "lucide-react";
 
 const OurStory = () => {
   const milestones = [
     {
-      icon: Rocket,
-      year: "2010",
-      title: "Company Founded",
-      description: "Started our journey with a vision to innovate digital solutions"
+      icon: Sparkles,
+      year: "2021",
+      title: "The Spark",
+      description:
+        "Moolmantra Technologies was born with a simple belief: technology should feel human. With a small but passionate team, we began crafting intuitive apps and digital experiences.",
     },
     {
-      icon: Users,
-      year: "2015",
-      title: "Team Expansion",
-      description: "Grew to 50+ talented professionals across multiple domains"
+      icon: Gamepad2,
+      year: "2022",
+      title: "Enter the World of Games & XR",
+      description:
+        "We expanded into game development and AR/VR prototypes, setting the foundation for what would become our signature strength—interactive, immersive digital solutions.",
     },
     {
-      icon: Target,
-      year: "2020",
-      title: "Global Reach",
-      description: "Expanded services to international markets and clients"
+      icon: Building,
+      year: "2023",
+      title: "Building Digital Twins & Smart Experiences",
+      description:
+        "Our work grew beyond screens. We started creating Digital Twin environments, virtual walkthroughs, and 3D experiences for education, real estate, manufacturing, and enterprise training.",
     },
     {
-      icon: Award,
+      icon: TrendingUp,
+      year: "2024",
+      title: "Scaling Creativity",
+      description:
+        "We upgraded our pipelines with advanced 3D workflows, AI-assisted content creation, and real-time engines like Unity & Unreal. Projects became larger, partnerships became deeper, and our solutions became more immersive.",
+    },
+    {
+      icon: Star,
       year: "2025",
-      title: "Industry Leader",
-      description: "Recognized as a leading innovator in digital technologies"
-    }
+      title: "Today",
+      description:
+        "Moolmantra stands as a multi-disciplinary tech studio, building apps, games, XR simulations, and digital twin platforms for next-generation businesses. Our story is still unfolding—and every product we build becomes a part of it.",
+    },
   ];
 
   return (
@@ -40,25 +51,15 @@ const OurStory = () => {
             Our Story
           </h2>
           <p className="text-xl text-gray-300 leading-relaxed mb-6">
-            Founded in 2010, we have been at the forefront of digital innovation
-            for over a decade. Our team of experts are passionate about creating
-            cutting-edge solutions that drive results for our clients.
-          </p>
-          <p className="text-lg text-gray-400 leading-relaxed">
-            From humble beginnings as a small startup to becoming a recognized
-            leader in Web, AR/VR, Gaming, and Real-time Communication platforms,
-            our journey has been marked by continuous innovation, dedication to
-            excellence, and an unwavering commitment to our clients' success.
+            A journey shaped by curiosity, creativity, and the constant urge to
+            build better.
           </p>
         </div>
 
         {/* Timeline/Milestones */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-8">
           {milestones.map((milestone, index) => (
-            <div
-              key={index}
-              className="relative group"
-            >
+            <div key={index} className="relative group">
               <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-6 hover:from-blue-900/50 hover:to-purple-900/50 transition-all duration-300 hover:scale-105 h-full">
                 {/* Icon */}
                 <div className="mb-4">

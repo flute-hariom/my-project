@@ -43,6 +43,39 @@
       "author": "Tech Team",
       "date": "2025-01-01",
       "readTime": "8 min read"
+    },
+    {
+      "id": "ai-machine-learning",
+      "title": "AI and Machine Learning Revolution",
+      "slug": "ai-machine-learning-revolution",
+      "excerpt": "How artificial intelligence is transforming industries and reshaping the way we work and live",
+      "image": "/image5.png",
+      "category": "Technology",
+      "author": "Tech Team",
+      "date": "2024-12-28",
+      "readTime": "9 min read"
+    },
+    {
+      "id": "cloud-computing-strategies",
+      "title": "Cloud Computing Strategies for Modern Businesses",
+      "slug": "cloud-computing-strategies",
+      "excerpt": "Best practices for migrating to the cloud and optimizing your infrastructure for scalability",
+      "image": "/image6.png",
+      "category": "Business",
+      "author": "Tech Team",
+      "date": "2024-12-20",
+      "readTime": "6 min read"
+    },
+    {
+      "id": "progressive-web-apps",
+      "title": "Progressive Web Apps: The Future of Mobile",
+      "slug": "progressive-web-apps-future",
+      "excerpt": "Why PWAs are becoming the preferred choice for delivering seamless cross-platform experiences",
+      "image": "/image7.png",
+      "category": "Web Development",
+      "author": "Tech Team",
+      "date": "2024-12-15",
+      "readTime": "7 min read"
     }
   ]
 }

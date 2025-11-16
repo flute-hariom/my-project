@@ -9,21 +9,21 @@ const MissionVision = () => {
       icon: Target,
       title: "Our Mission",
       description:
-        "To empower businesses with innovative digital solutions that transform ideas into reality, driving growth and creating exceptional user experiences through cutting-edge technology.",
+        "To design and develop digital experiences—apps, games, and immersive XR solutions—that make technology intuitive, meaningful, and delightful. We strive to bridge the gap between imagination and reality, empowering businesses to connect with their audiences through innovative digital products that inspire action and drive measurable results.",
       gradient: "from-blue-500 to-cyan-500"
     },
     {
       icon: Eye,
       title: "Our Vision",
       description:
-        "To be the global leader in digital innovation, recognized for excellence in Web, AR/VR, Gaming, and Real-time Communication technologies, shaping the future of digital experiences.",
+        "To become a global creative-tech studio redefining how people learn, play, explore, and experience the digital universe. We envision a future where immersive technologies are accessible to all, where digital twins transform industries, and where every interaction with technology feels natural, engaging, and purposeful.",
       gradient: "from-purple-500 to-pink-500"
     },
     {
       icon: Heart,
-      title: "Our Values",
+      title: "Our Core Values",
       description:
-        "Innovation, Excellence, Integrity, Collaboration, and Customer Success. We believe in pushing boundaries, delivering quality, and building lasting relationships with our clients.",
+        "We believe in Creativity with Purpose—innovation that solves real problems and inspires real engagement. Our commitment to Craftsmanship ensures clean architecture, smooth interactions, and pixel-perfect design in everything we build. Driven by Curiosity, we experiment, explore, and push boundaries in XR, real-time 3D, and digital twins. We uphold Integrity through transparent processes, honest communication, and technology built with trust. Above all, we embrace User-First Thinking, designing every feature for the people who use it—not the ones who build it.",
       gradient: "from-pink-500 to-orange-500"
     }
   ];

@@ -16,9 +16,9 @@ const MainHeader = () => {
           <div className="flex-shrink-0">
             <Link
               href="/"
-              className="flex text-white text-2xl font-bold hover:text-cyan-400 transition-colors duration-300"
+              className="flex text-white text-2xl font-bold hover:text-cyan-400 transition-colors duration-300 ml-[-80px]"
             >
-              <img src="/logo.png" className="w-10 mr-2" />
+              <img src="/logo.png" className="w-10 mr-4" />
               Moolmantra Technologies
             </Link>
           </div>

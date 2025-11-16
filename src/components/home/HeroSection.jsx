@@ -19,10 +19,10 @@ const HeroSection = () => {
           {/* Content */}
           <div className="text-white space-y-6">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              Where Innovation Meets Imagination
+              Where Innovation Meets Imagination concepts to seamless digital
+              realities
               <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                 {" "}
-                concepts to seamless digital realities
               </span>
             </h1>
 

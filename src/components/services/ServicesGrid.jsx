@@ -7,18 +7,41 @@ import { Code, Smartphone, Palette, Glasses } from "lucide-react";
 const ServicesGrid = () => {
   const services = [
     {
+      id: "app-development",
+      icon: Smartphone,
+      title: "App Development",
+      description: `We create mobile applications that balance smart engineering with elegant design.
+ Every app we build is smooth, stable, and crafted to deliver a delightful user experience.`,
+      features: [
+        "Android, iOS & cross-platform apps",
+        "MVP development for startups",
+        "Enterprise systems & workflow automation",
+        "Real-time features: chat, maps, tracking, payments",
+        "Backend, API & cloud infrastructure",
+        "App modernization & redesign",
+      ],
+      technologies: [
+        "React Native",
+        "Flutter",
+        "Swift",
+        "Kotlin",
+        "Firebase",
+        "Expo",
+      ],
+    },
+    {
       id: "web-development",
       icon: Code,
       title: "Web Development",
-      description:
-        "Building responsive and scalable websites and web applications",
+      description: `We build games that merge creativity, strategy, and technology.
+ Every game is crafted with attention to gameplay feel, smooth mechanics, and stunning visuals.`,
       features: [
-        "Custom website design and development",
-        "Responsive and mobile-first design",
-        "E-commerce solutions",
-        "Progressive Web Apps (PWA)",
-        "API integration and development",
-        "Performance optimization",
+        "2D / 3D Mobile Games",
+        "Hyper-casual & arcade games",
+        "Simulation & training games",
+        "Multiplayer experiences",
+        "WebGL games",
+        "Gamification systems",
       ],
       technologies: [
         "Next.js",
@@ -31,63 +54,19 @@ const ServicesGrid = () => {
       ],
     },
     {
-      id: "app-development",
-      icon: Smartphone,
-      title: "App Development",
-      description:
-        "Creating user-friendly mobile applications for iOS and Android",
-      features: [
-        "Native iOS and Android apps",
-        "Cross-platform development",
-        "App UI/UX design",
-        "App Store optimization",
-        "Push notifications",
-        "Offline functionality",
-      ],
-      technologies: [
-        "React Native",
-        "Flutter",
-        "Swift",
-        "Kotlin",
-        "Firebase",
-        "Expo",
-      ],
-    },
-    {
-      id: "ui-ux-design",
-      icon: Palette,
-      title: "UI/UX Design",
-      description: "Designing intuitive and engaging user interfaces",
-      features: [
-        "User research and analysis",
-        "Wireframing and prototyping",
-        "Visual design and branding",
-        "Usability testing",
-        "Design systems",
-        "Accessibility compliance",
-      ],
-      technologies: [
-        "Figma",
-        "Adobe XD",
-        "Sketch",
-        "InVision",
-        "Miro",
-        "Principle",
-      ],
-    },
-    {
       id: "arvr-experiences",
       icon: Glasses,
-      title: "AR/VR Experiences",
-      description:
-        "Developing immersive augmented and virtual reality solutions",
+      title: "AR/VR/XR & Digital Twin Solutions",
+      description: `We create immersive digital worlds that transform how businesses train, visualize, and operate.
+ Our AR, VR, XR, and digital twin solutions help industries adopt the future today`,
       features: [
-        "Virtual reality applications",
-        "Augmented reality experiences",
-        "360° video experiences",
-        "3D modeling and animation",
-        "Interactive simulations",
-        "Cross-platform VR/AR",
+        "AR apps & filters",
+        "VR training modules",
+        "XR product visualization",
+        "Digital Twin environments",
+        "Virtual tours & 3D walkthroughs",
+        "Metaverse experiences",
+        "Real-time 3D simulations",
       ],
       technologies: [
         "Unity",
@@ -97,6 +76,31 @@ const ServicesGrid = () => {
         "WebXR",
         "Oculus SDK",
         "Vuforia",
+      ],
+    },
+
+    {
+      id: "ui-ux-design",
+      icon: Palette,
+      title: "UI/UX Design",
+      description:
+        "We design experiences that look beautiful, work smoothly, and guide users effortlessly.",
+      features: [
+        "UI/UX for mobile & web",
+        "Game UI/UX",
+        "Enterprise dashboard design",
+        "User research & flow mapping",
+        "Wireframes, prototypes & design systems",
+        "Branding & visual identity",
+      ],
+
+      technologies: [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "InVision",
+        "Miro",
+        "Principle",
       ],
     },
   ];

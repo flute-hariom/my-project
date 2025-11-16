@@ -2,45 +2,39 @@
 
 import React from "react";
 import {
-  Zap,
-  Shield,
-  Users,
-  TrendingUp,
-  Clock,
-  Award,
+  Sparkles,
+  Box,
+  Layers,
+  Cpu,
+  Palette,
 } from "lucide-react";
 
 const WhyChooseUs = () => {
   const reasons = [
     {
-      icon: Zap,
-      title: "Innovation First",
-      description: "Cutting-edge technologies and forward-thinking solutions"
+      icon: Sparkles,
+      title: "We Build Products That Feel Alive",
+      description: "From smooth mobile apps to interactive games, we focus on experience quality—not just development speed."
     },
     {
-      icon: Shield,
-      title: "Trusted & Secure",
-      description: "Enterprise-grade security and data protection standards"
+      icon: Box,
+      title: "Deep Expertise in XR & Digital Twins",
+      description: "We craft AR/VR/XR experiences, 3D simulations, and digital replicas that help businesses train better, sell smarter, and communicate visually."
     },
     {
-      icon: Users,
-      title: "Expert Team",
-      description: "Skilled professionals with diverse industry experience"
+      icon: Layers,
+      title: "End-to-End Development Partner",
+      description: "Strategy, design, development, testing, deployment, and ongoing improvements—we handle everything so you stay focused on growth."
     },
     {
-      icon: TrendingUp,
-      title: "Proven Results",
-      description: "Track record of successful projects and satisfied clients"
+      icon: Cpu,
+      title: "Future-Ready Technology Stack",
+      description: "Unity, Unreal, Flutter, React Native, 3D engines, real-time cloud systems—we pick the right tools for performance and scalability."
     },
     {
-      icon: Clock,
-      title: "On-Time Delivery",
-      description: "Commitment to deadlines without compromising quality"
-    },
-    {
-      icon: Award,
-      title: "Quality Assured",
-      description: "Rigorous testing and quality control processes"
+      icon: Palette,
+      title: "We Think Like Artists & Build Like Engineers",
+      description: "Our unique approach combines creativity, storytelling, and technical precision, resulting in products that users love and businesses trust."
     }
   ];
 
@@ -71,6 +65,11 @@ const WhyChooseUs = () => {
                   <reason.icon className="h-7 w-7 text-white" />
                 </div>
               </div>
+
+              {/* Number Badge */}
+              {/* <div className="absolute top-6 right-6 text-2xl font-bold text-blue-500/30">
+                0{index + 1}
+              </div> */}
 
               {/* Title */}
               <h3 className="text-xl font-bold text-white mb-3">
