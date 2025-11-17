@@ -41,17 +41,6 @@ const ServicesCTA = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
-
-            <Link href="/contact-us">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-2 border-white/30 text-white hover:bg-white/10 px-10 py-7 text-lg rounded-xl transition-all duration-300"
-              >
-                <MessageCircle className="mr-2 h-5 w-5" />
-                Schedule a Consultation
-              </Button>
-            </Link>
           </div>
         </div>
       </div>

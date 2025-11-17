@@ -2,49 +2,54 @@
 
 import React from "react";
 import {
-  Building2,
-  ShoppingCart,
+  Monitor,
+  Gamepad2,
   GraduationCap,
+  Building2,
   Stethoscope,
-  Landmark,
+  Factory,
+  ShoppingCart,
+  Car,
   Plane,
-  Smartphone as SmartphoneIcon,
-  TrendingUp,
 } from "lucide-react";
 
 const IndustriesServed = () => {
   const industries = [
     {
-      icon: Building2,
-      name: "Real Estate",
+      icon: Monitor,
+      name: "Information Technology & SaaS",
     },
     {
-      icon: ShoppingCart,
-      name: "E-commerce",
+      icon: Gamepad2,
+      name: "Gaming & Entertainment",
     },
     {
       icon: GraduationCap,
-      name: "Education",
+      name: "Education & e-Learning",
+    },
+    {
+      icon: Building2,
+      name: "Real Estate & Smart Infrastructure",
     },
     {
       icon: Stethoscope,
-      name: "Healthcare",
+      name: "Healthcare & Wellness",
     },
     {
-      icon: Landmark,
-      name: "Finance",
+      icon: Factory,
+      name: "Manufacturing & Industry 4.0",
+    },
+    {
+      icon: ShoppingCart,
+      name: "Retail & E-Commerce",
+    },
+    {
+      icon: Car,
+      name: "Automotive & Mobility",
     },
     {
       icon: Plane,
-      name: "Travel & Tourism",
-    },
-    {
-      icon: SmartphoneIcon,
-      name: "Technology",
-    },
-    {
-      icon: TrendingUp,
-      name: "Startups",
+      name: "Tourism, Hospitality & Events",
     },
   ];
 
@@ -62,11 +67,11 @@ const IndustriesServed = () => {
         </div>
 
         {/* Industries Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {industries.map((industry, index) => (
             <div
               key={index}
-              className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 hover:from-blue-900/50 hover:to-purple-900/50 transition-all duration-300 hover:scale-105 text-center"
+              className="group relative bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 hover:from-blue-900/50 hover:to-purple-900/50 transition-all duration-300 hover:scale-105 text-center"
             >
               {/* Icon */}
               <div className="mb-4 flex justify-center">
