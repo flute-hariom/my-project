@@ -95,7 +95,7 @@ const ContactPage = () => {
                   </Button>
                 </Link>
 
-                <Link href="tel:+919818733819">
+                {/* <Link href="tel:+919818733819">
                   <Button
                     size="lg"
                     variant="outline"
@@ -104,7 +104,7 @@ const ContactPage = () => {
                     <Rocket className="mr-2 h-5 w-5" />
                     Start My Project
                   </Button>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

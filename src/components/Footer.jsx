@@ -136,7 +136,8 @@ const Footer = () => {
                   <span className="mr-2 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     ›
                   </span>
-                  Projects
+                  {/* Projects */}
+                  Portfolio
                 </Link>
               </li>
               <li>

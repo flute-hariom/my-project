@@ -3,7 +3,37 @@
     "id": 1,
     "web_view_image": {
       "asset": {
-        "url": "/banner4.png",
+        "url": "/banner-21.png",
+        "id": "banner1"
+      },
+      "alt": "Modern Technology Banner - Laptop and Workspace"
+    }
+  },
+  {
+    "id": 1,
+    "web_view_image": {
+      "asset": {
+        "url": "/banner-22.png",
+        "id": "banner1"
+      },
+      "alt": "Modern Technology Banner - Laptop and Workspace"
+    }
+  },
+  {
+    "id": 1,
+    "web_view_image": {
+      "asset": {
+        "url": "/banner23.png",
+        "id": "banner1"
+      },
+      "alt": "Modern Technology Banner - Laptop and Workspace"
+    }
+  },
+  {
+    "id": 1,
+    "web_view_image": {
+      "asset": {
+        "url": "/banner24.png",
         "id": "banner1"
       },
       "alt": "Modern Technology Banner - Laptop and Workspace"

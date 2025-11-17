@@ -14,7 +14,7 @@ export const metadata = {
 const Projects = () => {
   return (
     <div className="min-h-screen">
-      <ProjectsHero />
+      {/* <ProjectsHero /> */}
       <ProjectsGrid />
       <ProjectsCTA />
     </div>
