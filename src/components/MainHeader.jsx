@@ -20,14 +20,14 @@ const MainHeader = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link
-              href="/"
-              className="flex text-white text-2xl font-bold hover:text-cyan-400 transition-colors duration-300 ml-[-80px]"
-            >
-              <img src="/logo.png" className="w-10 mr-4" />
-              Moolmantra Technologies
-            </Link>
-          </div>
+  <Link
+    href="/"
+    className="flex text-2xl font-bold ml-[-80px] bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 bg-clip-text text-transparent hover:from-cyan-400 hover:via-blue-500 hover:to-purple-600 transition-all duration-500"
+  >
+    <img src="/logo.png" className="w-10 mr-4" />
+    Moolmantra Technologies
+  </Link>
+</div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
