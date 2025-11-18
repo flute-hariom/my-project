@@ -9,7 +9,7 @@ const ServicesGrid = () => {
     {
       id: "app-development",
       icon: Smartphone,
-      title: "App Development",
+      title: "App & Game Development",
       description: `We create mobile applications that balance smart engineering with elegant design.
  Every app we build is smooth, stable, and crafted to deliver a delightful user experience.`,
       features: [

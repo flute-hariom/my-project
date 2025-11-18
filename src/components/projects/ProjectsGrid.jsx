@@ -148,7 +148,7 @@ const ProjectsShowcase = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-white">Our </span>
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Projects</span>
+            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Portfolio</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Innovative solutions across mobile, gaming, and immersive technologies
