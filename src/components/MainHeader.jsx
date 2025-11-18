@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const MainHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const isActive = (path) => {
+    return pathname === path;
   };
 
   return (
@@ -27,33 +33,63 @@ const MainHeader = () => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
-              className="text-white font-medium hover:text-cyan-400 transition-colors duration-300 relative group"
+              className={`font-medium transition-colors duration-300 relative group ${
+                isActive("/")
+                  ? "text-cyan-400"
+                  : "text-white hover:text-cyan-400"
+              }`}
             >
               Home
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+              <span
+                className={`absolute bottom-0 left-0 h-0.5 bg-cyan-400 transition-all duration-300 ${
+                  isActive("/") ? "w-full" : "w-0 group-hover:w-full"
+                }`}
+              ></span>
             </Link>
             <Link
               href="/about-us"
-              className="text-white font-medium hover:text-cyan-400 transition-colors duration-300 relative group"
+              className={`font-medium transition-colors duration-300 relative group ${
+                isActive("/about-us")
+                  ? "text-cyan-400"
+                  : "text-white hover:text-cyan-400"
+              }`}
             >
               About Us
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+              <span
+                className={`absolute bottom-0 left-0 h-0.5 bg-cyan-400 transition-all duration-300 ${
+                  isActive("/about-us") ? "w-full" : "w-0 group-hover:w-full"
+                }`}
+              ></span>
             </Link>
             <Link
               href="/services"
-              className="text-white font-medium hover:text-cyan-400 transition-colors duration-300 relative group"
+              className={`font-medium transition-colors duration-300 relative group ${
+                isActive("/services")
+                  ? "text-cyan-400"
+                  : "text-white hover:text-cyan-400"
+              }`}
             >
               Services
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+              <span
+                className={`absolute bottom-0 left-0 h-0.5 bg-cyan-400 transition-all duration-300 ${
+                  isActive("/services") ? "w-full" : "w-0 group-hover:w-full"
+                }`}
+              ></span>
             </Link>
             <Link
-              // href="/portfolio"
               href="/projects"
-              className="text-white font-medium hover:text-cyan-400 transition-colors duration-300 relative group"
+              className={`font-medium transition-colors duration-300 relative group ${
+                isActive("/projects")
+                  ? "text-cyan-400"
+                  : "text-white hover:text-cyan-400"
+              }`}
             >
-              {/* Projects */}
               Portfolio
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+              <span
+                className={`absolute bottom-0 left-0 h-0.5 bg-cyan-400 transition-all duration-300 ${
+                  isActive("/projects") ? "w-full" : "w-0 group-hover:w-full"
+                }`}
+              ></span>
             </Link>
           </div>
 
@@ -96,30 +132,44 @@ const MainHeader = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 bg-slate-800 rounded-lg mt-2">
             <Link
               href="/"
-              className="block px-3 py-2 rounded-md text-white hover:text-cyan-400 hover:bg-slate-700 transition-colors duration-300"
+              className={`block px-3 py-2 rounded-md transition-colors duration-300 ${
+                isActive("/")
+                  ? "text-cyan-400 bg-slate-700"
+                  : "text-white hover:text-cyan-400 hover:bg-slate-700"
+              }`}
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/services"
-              className="block px-3 py-2 rounded-md text-white hover:text-cyan-400 hover:bg-slate-700 transition-colors duration-300"
+              className={`block px-3 py-2 rounded-md transition-colors duration-300 ${
+                isActive("/services")
+                  ? "text-cyan-400 bg-slate-700"
+                  : "text-white hover:text-cyan-400 hover:bg-slate-700"
+              }`}
               onClick={() => setIsMenuOpen(false)}
             >
               Services
             </Link>
             <Link
-              // href="/portfolio"
               href="/projects"
-              className="block px-3 py-2 rounded-md text-white hover:text-cyan-400 hover:bg-slate-700 transition-colors duration-300"
+              className={`block px-3 py-2 rounded-md transition-colors duration-300 ${
+                isActive("/projects")
+                  ? "text-cyan-400 bg-slate-700"
+                  : "text-white hover:text-cyan-400 hover:bg-slate-700"
+              }`}
               onClick={() => setIsMenuOpen(false)}
             >
               Portfolio
-              {/* projects */}
             </Link>
             <Link
-              href="/about"
-              className="block px-3 py-2 rounded-md text-white hover:text-cyan-400 hover:bg-slate-700 transition-colors duration-300"
+              href="/about-us"
+              className={`block px-3 py-2 rounded-md transition-colors duration-300 ${
+                isActive("/about-us")
+                  ? "text-cyan-400 bg-slate-700"
+                  : "text-white hover:text-cyan-400 hover:bg-slate-700"
+              }`}
               onClick={() => setIsMenuOpen(false)}
             >
               About Us

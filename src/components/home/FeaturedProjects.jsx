@@ -25,11 +25,12 @@ const FeaturedProjects = () => {
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.slice(0, 3).map((project, index) => (
-            <Link
-              key={project.id}
-              href={project.link}
-              className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 hover:shadow-2xl transition-all duration-300 hover:scale-105"
-            >
+            <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              {/* <Link
+                key={project.id}
+                href={project.link}
+                className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-gray-900 to-gray-800 hover:shadow-2xl transition-all duration-300 hover:scale-105"
+              > */}
               {/* Project Image */}
               <div className="relative h-64 overflow-hidden">
                 <div
@@ -62,12 +63,13 @@ const FeaturedProjects = () => {
                 </div> */}
 
                 {/* Learn More Link */}
-                <div className="flex items-center text-blue-400 font-semibold">
+                {/* <div className="flex items-center text-blue-400 font-semibold">
                   Learn More
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-2 transition-transform" />
-                </div>
+                </div> */}
               </div>
-            </Link>
+              {/* </Link> */}
+            </div>
           ))}
         </div>
 

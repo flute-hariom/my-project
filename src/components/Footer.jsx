@@ -163,7 +163,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/services/web-development"
+                  // href="/services/web-development"
+                  href="/services"
                   className="hover:text-cyan-400 transition-colors duration-300 flex items-center group"
                 >
                   <span className="mr-2 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -174,7 +175,8 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/services/app-development"
+                  // href="/services/app-development"
+                  href="/services"
                   className="hover:text-cyan-400 transition-colors duration-300 flex items-center group"
                 >
                   <span className="mr-2 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -185,7 +187,8 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/services/ui-ux-design"
+                  // href="/services/ui-ux-design"
+                  href="/services"
                   className="hover:text-cyan-400 transition-colors duration-300 flex items-center group"
                 >
                   <span className="mr-2 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -196,7 +199,8 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/services/digital-marketing"
+                  // href="/services/digital-marketing"
+                  href="/services"
                   className="hover:text-cyan-400 transition-colors duration-300 flex items-center group"
                 >
                   <span className="mr-2 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -339,7 +343,7 @@ const Footer = () => {
               © {currentYear} Moolmantra Technologies Private Limited. All
               Rights Reserved.
             </p>
-            <div className="flex flex-wrap justify-center space-x-6 text-sm">
+            {/* <div className="flex flex-wrap justify-center space-x-6 text-sm">
               <Link
                 href="/privacy-policy"
                 className="hover:text-cyan-400 transition-colors duration-300"
@@ -358,7 +362,7 @@ const Footer = () => {
               >
                 Cookie Policy
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

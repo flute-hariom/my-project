@@ -3,27 +3,28 @@
     "id": 1,
     "web_view_image": {
       "asset": {
-        "url": "/banner-21.png",
-        "id": "banner1"
-      },
-      "alt": "Modern Technology Banner - Laptop and Workspace"
-    }
-  },
-  {
-    "id": 1,
-    "web_view_image": {
-      "asset": {
         "url": "/banner-22.png",
         "id": "banner1"
       },
       "alt": "Modern Technology Banner - Laptop and Workspace"
     }
   },
+
   {
     "id": 1,
     "web_view_image": {
       "asset": {
         "url": "/banner23.png",
+        "id": "banner1"
+      },
+      "alt": "Modern Technology Banner - Laptop and Workspace"
+    }
+  },
+  {
+    "id": 1,
+    "web_view_image": {
+      "asset": {
+        "url": "/banner-21.png",
         "id": "banner1"
       },
       "alt": "Modern Technology Banner - Laptop and Workspace"
@@ -39,16 +40,7 @@
       "alt": "Modern Technology Banner - Laptop and Workspace"
     }
   },
-  {
-    "id": 2,
-    "web_view_image": {
-      "asset": {
-        "url": "/banner2.png",
-        "id": "banner2"
-      },
-      "alt": "Business Analytics Dashboard"
-    }
-  },
+
   {
     "id": 3,
     "web_view_image": {

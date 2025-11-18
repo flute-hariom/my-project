@@ -27,11 +27,12 @@ const LatestBlogs = () => {
         {/* Blog Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {blogs.map((blog, index) => (
-            <Link
-              key={blog.id}
-              href={`/blog/${blog.slug}`}
-              className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105"
-            >
+            <div className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              {/* <Link
+                key={blog.id}
+                href={`/blog/${blog.slug}`}
+                className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105"
+              > */}
               {/* Blog Image */}
               <div className="relative h-48 overflow-hidden">
                 <img
@@ -51,7 +52,7 @@ const LatestBlogs = () => {
                 <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors line-clamp-2">
                   {blog.title}
                 </h3>
-                
+
                 <p className="text-gray-400 text-sm mb-4 line-clamp-2">
                   {blog.excerpt}
                 </p>
@@ -68,7 +69,8 @@ const LatestBlogs = () => {
                   </div>
                 </div>
               </div>
-            </Link>
+              {/* </Link> */}
+            </div>
           ))}
         </div>
 

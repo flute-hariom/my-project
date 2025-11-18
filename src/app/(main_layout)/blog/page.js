@@ -81,11 +81,12 @@ const BlogListPage = () => {
         {filteredBlogs.length > 0 ? (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {filteredBlogs.map((blog) => (
-              <Link
-                key={blog.id}
-                href={`/blog/${blog.slug}`}
-                className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 hover:scale-105 border border-gray-800 hover:border-blue-500/50"
-              >
+              <div className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 hover:scale-105 border border-gray-800 hover:border-blue-500/50">
+                {/* <Link
+                  key={blog.id}
+                  href={`/blog/${blog.slug}`}
+                  className="group bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl overflow-hidden hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-300 hover:scale-105 border border-gray-800 hover:border-blue-500/50"
+                > */}
                 {/* Blog Image */}
                 <div className="relative h-48 overflow-hidden">
                   <img
@@ -134,7 +135,8 @@ const BlogListPage = () => {
                     </div>
                   </div>
                 </div>
-              </Link>
+                {/* </Link> */}
+              </div>
             ))}
           </div>
         ) : (
